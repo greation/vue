@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
